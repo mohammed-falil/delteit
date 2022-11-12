@@ -1,0 +1,25 @@
+@media only screen and (max-width: 480px) {
+  .food-card_main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px;
+    border-radius: 0.7rem 0.7rem 0 0;
+    margin-bottom: 1.2rem;
+
+    .card-img {
+      width: 100%;
+      height: 14rem;
+      background-image: url("https://img.freepik.com/free-photo/big-sandwich-hamburger-with-juicy-beef-burger-cheese-tomato-red-onion-wooden-table_2829-19631.jpg?w=2000");
+      //   background: url("../../assets/frontpage.jpg");
+      background-size: cover;
+      border-radius: 0.7rem;
+      padding: 0;
+    }
+    .card-content{
+        padding-bottom: 1rem;
+    }
+  }
+}

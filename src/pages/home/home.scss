@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap");
+@media only screen and (max-width: 480px) {
+  .home-main {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .home-heading {
+      height: 28rem;
+      width: 100%;
+      background-size: cover;
+      background-position: center center;
+      border: 1px solid;
+      background-repeat: no-repeat;
+      background-image: url("../../assets/frontpage1.jpg");
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      .title {
+        width: 30rem;
+        margin: 1rem;
+        background: rgba(255, 255, 255, 0.26);
+        border-radius: 16px;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        // backdrop-filter: blur(2px);
+        // -webkit-backdrop-filter: blur(2px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+
+        p {
+          font-size: 2rem;
+          color: rgb(12, 12, 12);
+          font-family: "Times New Roman", Times, serif;
+          text-align: center;
+          letter-spacing: 0.5rem;
+          font-weight: bold;
+        }
+      }
+    }
+
+    .home-content {
+      display: flex;
+      width: 100%;
+      border: 1px solid;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+
+      .home-h3 {
+        margin: 0.5rem;
+        width: 90%;
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px;
+        border-radius: 0.7rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+          margin: 0;
+          padding: 1rem;
+          text-align: justify;
+        }
+
+        .btn-div {
+          width: 50%;
+          border-radius: 1rem;
+          border: 1px solid transparent;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          padding-top: 0.2rem;
+          padding-bottom: 0.2rem;
+          margin-bottom: 1rem;
+          background-color: var(--app-color);
+          cursor: pointer;
+          box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+
+          .about-btn {
+            width: 90%;
+            padding: 0.8rem;
+            border-radius: 1rem;
+            background-color: transparent;
+            border: 0.1rem solid white;
+            font-weight: bold;
+            color: white;
+            font-size: 1.2rem;
+            cursor: pointer;
+            &:hover {
+              border-color: orange;
+            }
+          }
+        }
+      }
+    }
+
+    .loved-products {
+      
+      .food-card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+}
